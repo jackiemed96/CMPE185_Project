@@ -1,0 +1,3 @@
+[submodule "CMPE185_ws/src/objdetect_node/yolov7-ros"]
+	path = CMPE185_ws/src/objdetect_node/yolov7-ros
+	url = https://github.com/jackiemed96/yolov7-ros.git
