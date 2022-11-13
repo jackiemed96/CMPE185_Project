@@ -1,21 +1,41 @@
-cmake_minimum_required(VERSION 3.0.2)
-project(yolov7_ros)
+cmake_minimum_required(VERSION 3.8)
+project(objdetect_node)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
 
+#ROS1 --> ROS2 find_packages
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_python REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(vision_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS
-  geometry_msgs
-  roscpp
-  rospy
-  sensor_msgs
-  std_msgs
-  vision_msgs
-  message_generation
-)
+#find_package(catkin REQUIRED COMPONENTS
+#  geometry_msgs
+#  roscpp
+#  rospy
+#  sensor_msgs
+#  std_msgs
+#  vision_msgs
+#  message_generation
+#)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -50,12 +70,20 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * uncomment the generate_messages entry below
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
+#ROS1 --> ROS2 Generate messages
+#rosidl_generate_interfaces(${PROJECT_NAME}
+#  "msg/ObjectTracking2D.msg"
+#  "msg/ObjectTracking2DArray.msg"
+#  DEPENDENCIES geometry_msgs sensor_msgs std_msgs vision_msgs yolov7_ros
+#)
+
+
 ## Generate messages in the 'msg' folder
-add_message_files(
-  FILES
-  ObjectTracking2D.msg
-  ObjectTracking2DArray.msg
-)
+#add_message_files(
+#  FILES
+#  ObjectTracking2D.msg
+#  ObjectTracking2DArray.msg
+#)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -72,14 +100,14 @@ add_message_files(
 # )
 
 ## Generate added messages and services with any dependencies listed here
-generate_messages(
-  DEPENDENCIES
-  geometry_msgs
-  sensor_msgs
-  std_msgs
-  vision_msgs
-  yolov7_ros
-)
+#generate_messages(
+#  DEPENDENCIES
+#  geometry_msgs
+#  sensor_msgs
+#  std_msgs
+#  vision_msgs
+#  yolov7_ros
+#)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -110,9 +138,9 @@ generate_messages(
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
-catkin_package(
-    CATKIN_DEPENDS message_runtime
-)
+#catkin_package(
+#    CATKIN_DEPENDS message_runtime
+#)
 #  INCLUDE_DIRS include
 #  LIBRARIES yolov7_ros
 #  CATKIN_DEPENDS geometry_msgs roscpp rospy sensor_msgs std_msgs vision_msgs
@@ -124,10 +152,11 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(
+include_directories(include)
+#include_directories(
 # include
-  ${catkin_INCLUDE_DIRS}
-)
+#  ${catkin_INCLUDE_DIRS}
+#s)
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -213,3 +242,48 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+install(DIRECTORY 
+  launch
+  class_labels
+  conf
+  DESTINATION share/${PROJECT_NAME}
+)
+
+install(FILES 
+  objdetect_node/yolov7.pt 
+  DESTINATION share/${PROJECT_NAME}
+)
+
+install(DIRECTORY 
+  objdetect_node/cfg
+  objdetect_node/data
+  objdetect_node/deploy
+  objdetect_node/figure
+  objdetect_node/inference
+  objdetect_node/models
+  objdetect_node/paper
+  objdetect_node/scripts
+  objdetect_node/tools
+  objdetect_node/utils
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(FILES
+  objdetect_node/yolov7.pt
+  objdetect_node/detect.py
+  objdetect_node/export.py
+  objdetect_node/hubconf.py
+  objdetect_node/test.py
+  objdetect_node/train_aux.py
+  objdetect_node/visualizer.py
+  DESTINATION lib/${PROJECT_NAME} 
+)
+
+install(PROGRAMS "objdetect_node/detect_ros.py"
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+ament_python_install_package(${PROJECT_NAME})
+ament_export_dependencies(rosidl_default_runtime)
+ament_package()

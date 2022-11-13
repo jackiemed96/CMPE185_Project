@@ -2,7 +2,7 @@
 
 CameraNode::CameraNode() : Node("camera_node") 
 {
-    publisher_ = this->create_publisher<sensor_msgs::msg::Image>("data", 10);
+    publisher_ = this->create_publisher<sensor_msgs::msg::Image>("raw_image", 10);
     timer_ = this->create_wall_timer(
         std::chrono::milliseconds(33), std::bind(&CameraNode::call_back, this));
     camera = std::make_shared<Camera>();

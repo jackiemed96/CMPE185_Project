@@ -1,6 +1,4 @@
 <launch>
   <node pkg="camera_node" exec="camera_node_exe" name="camera1"/>
-  <node pkg="rqt_image_view" exec="rqt_image_view" name="rqt_image_view" namespace="rqt_image_view">
-    <remap from="image" to="data"/>
-  </node>
+  <node exec="rviz2" name="rviz2" pkg="rviz2" args="-d $(find-pkg-share objdetect_node)/conf/conf.rviz"/>
 </launch>

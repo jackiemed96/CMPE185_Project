@@ -19,7 +19,6 @@ void Camera::grab()
 {
 
    int return2 = cap->read(data);
-   std::cout << return2 << std::endl;
     
 }
 
