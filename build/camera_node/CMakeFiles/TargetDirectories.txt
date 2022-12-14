@@ -1,0 +1,10 @@
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/install/strip.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/install/local.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/install.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/list_install_components.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/rebuild_cache.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/edit_cache.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/test.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/camera_node_exe.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/camera_node_uninstall.dir
+/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node/CMakeFiles/uninstall.dir
