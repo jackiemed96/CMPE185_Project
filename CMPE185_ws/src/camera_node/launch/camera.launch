@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="camera_node" exec="camera_node_exe" name="camera1"/>
+  <node exec="rviz2" name="rviz2" pkg="rviz2" args="-d $(find-pkg-share objdetect_node)/conf/conf.rviz"/>
+</launch>

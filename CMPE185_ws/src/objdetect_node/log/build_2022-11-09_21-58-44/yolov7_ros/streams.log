@@ -1,0 +1,36 @@
+[0.013s] Invoking command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros': /usr/bin/cmake /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node -DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros
+[0.026s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.095s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.100s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.238s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.300s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.337s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.339s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.355s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.468s] -- Found rclpy: 1.9.2 (/opt/ros/galactic/share/rclpy/cmake)
+[0.469s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.549s] -- Found vision_msgs: 3.0.2 (/opt/ros/galactic/share/vision_msgs/cmake)
+[0.623s] CMake Error at CMakeLists.txt:24 (find_package):
+[0.623s]   By not providing "Findmessage_generation.cmake" in CMAKE_MODULE_PATH this
+[0.623s]   project has asked CMake to find a package configuration file provided by
+[0.623s]   "message_generation", but CMake did not find one.
+[0.624s] 
+[0.624s]   Could not find a package configuration file provided by
+[0.624s]   "message_generation" with any of the following names:
+[0.624s] 
+[0.624s]     message_generationConfig.cmake
+[0.624s]     message_generation-config.cmake
+[0.624s] 
+[0.624s]   Add the installation prefix of "message_generation" to CMAKE_PREFIX_PATH or
+[0.625s]   set "message_generation_DIR" to a directory containing one of the above
+[0.625s]   files.  If "message_generation" provides a separate development package or
+[0.625s]   SDK, be sure it has been installed.
+[0.625s] 
+[0.625s] 
+[0.625s] -- Configuring incomplete, errors occurred!
+[0.626s] See also "/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/CMakeFiles/CMakeOutput.log".
+[0.626s] See also "/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/CMakeFiles/CMakeError.log".
+[0.632s] Invoked command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros' returned '1': /usr/bin/cmake /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node -DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros

@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros': /usr/bin/cmake /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node -DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros
+[0.026s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.095s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.096s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.099s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.243s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.309s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.346s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.347s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.363s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.480s] -- Found rclpy: 1.9.2 (/opt/ros/galactic/share/rclpy/cmake)
+[0.481s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.545s] -- Found vision_msgs: 3.0.2 (/opt/ros/galactic/share/vision_msgs/cmake)
+[0.607s] CMake Error at CMakeLists.txt:140 (catkin_package):
+[0.608s]   Unknown CMake command "catkin_package".
+[0.608s] 
+[0.608s] 
+[0.609s] -- Configuring incomplete, errors occurred!
+[0.609s] See also "/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/CMakeFiles/CMakeOutput.log".
+[0.609s] See also "/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/CMakeFiles/CMakeError.log".
+[0.616s] Invoked command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros' returned '1': /usr/bin/cmake /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node -DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros

@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (yolov7_ros) JobQueued: {'identifier': 'yolov7_ros', 'dependencies': OrderedDict()}
+[0.000132] (yolov7_ros) JobStarted: {'identifier': 'yolov7_ros'}
+[0.009114] (yolov7_ros) JobProgress: {'identifier': 'yolov7_ros', 'progress': 'cmake'}
+[0.009940] (yolov7_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node', '-DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros'], 'cwd': '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jackie'), ('SSH_AGENT_PID', '1921'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/jackie'), ('OLDPWD', '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1704'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/jackie/intelFPGA_lite/20.1/quartus/sopc_builder/bin'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jackie'), ('JOURNAL_STREAM', '8:49515'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jackie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jackie-Nitro-AN515-53:@/tmp/.ICE-unix/1959,unix/jackie-Nitro-AN515-53:/tmp/.ICE-unix/1959'), ('INVOCATION_ID', '9222ea091a1b4ebebafa1068cf4d4816'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a490d826_540a_4df6_a19e_788b748dbe9a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.024171] (yolov7_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.042585] (yolov7_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.093069] (yolov7_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.094764] (yolov7_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.097695] (yolov7_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.098839] (-) TimerEvent: {}
+[0.199095] (-) TimerEvent: {}
+[0.216351] (yolov7_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.236386] (yolov7_ros) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[0.297805] (yolov7_ros) StdoutLine: {'line': b'-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.299190] (-) TimerEvent: {}
+[0.334506] (yolov7_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.335926] (yolov7_ros) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.351988] (yolov7_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.399298] (-) TimerEvent: {}
+[0.463986] (yolov7_ros) StdoutLine: {'line': b'-- Found rclpy: 1.9.2 (/opt/ros/galactic/share/rclpy/cmake)\n'}
+[0.464215] (yolov7_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.499426] (-) TimerEvent: {}
+[0.529789] (yolov7_ros) StdoutLine: {'line': b'-- Found vision_msgs: 3.0.2 (/opt/ros/galactic/share/vision_msgs/cmake)\n'}
+[0.599511] (-) TimerEvent: {}
+[0.636436] (yolov7_ros) StderrLine: {'line': b"Error parsing '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/package.xml':\n"}
+[0.699628] (-) TimerEvent: {}
+[0.741327] (yolov7_ros) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.741609] (yolov7_ros) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[0.741753] (yolov7_ros) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.741816] (yolov7_ros) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString\n'}
+[0.741877] (yolov7_ros) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.741964] (yolov7_ros) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.742022] (yolov7_ros) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.742080] (yolov7_ros) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.742136] (yolov7_ros) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.742192] (yolov7_ros) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 89, column 29\n'}
+[0.742249] (yolov7_ros) StderrLine: {'line': b'\n'}
+[0.742305] (yolov7_ros) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.742362] (yolov7_ros) StderrLine: {'line': b'\n'}
+[0.742426] (yolov7_ros) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.742482] (yolov7_ros) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 151, in <module>\n'}
+[0.742539] (yolov7_ros) StderrLine: {'line': b'    main()\n'}
+[0.742596] (yolov7_ros) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 54, in main\n'}
+[0.742653] (yolov7_ros) StderrLine: {'line': b'    raise e\n'}
+[0.742708] (yolov7_ros) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 50, in main\n'}
+[0.742764] (yolov7_ros) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.742819] (yolov7_ros) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[0.742875] (yolov7_ros) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.742931] (yolov7_ros) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/package.xml':\n"}
+[0.742988] (yolov7_ros) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.743042] (yolov7_ros) StderrLine: {'line': b'mismatched tag: line 89, column 29\n'}
+[0.763116] (yolov7_ros) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[0.763303] (yolov7_ros) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.763437] (yolov7_ros) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.763531] (yolov7_ros) StderrLine: {'line': b'  /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/package.xml\n'}
+[0.763610] (yolov7_ros) StderrLine: {'line': b'  /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/ament_cmake_core/package.cmake)\n'}
+[0.763689] (yolov7_ros) StderrLine: {'line': b'  returned error code 1\n'}
+[0.763779] (yolov7_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.763868] (yolov7_ros) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.763981] (yolov7_ros) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[0.764049] (yolov7_ros) StderrLine: {'line': b'  CMakeLists.txt:245 (ament_package)\n'}
+[0.764110] (yolov7_ros) StderrLine: {'line': b'\n'}
+[0.764169] (yolov7_ros) StderrLine: {'line': b'\n'}
+[0.765262] (yolov7_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.765398] (yolov7_ros) StdoutLine: {'line': b'See also "/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/CMakeFiles/CMakeOutput.log".\n'}
+[0.765576] (yolov7_ros) StdoutLine: {'line': b'See also "/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/CMakeFiles/CMakeError.log".\n'}
+[0.771708] (yolov7_ros) CommandEnded: {'returncode': 1}
+[0.772301] (yolov7_ros) JobEnded: {'identifier': 'yolov7_ros', 'rc': 1}
+[0.782561] (-) EventReactorShutdown: {}

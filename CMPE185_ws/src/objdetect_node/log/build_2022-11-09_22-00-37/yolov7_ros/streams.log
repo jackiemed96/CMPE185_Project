@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros': /usr/bin/cmake /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node -DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros
+[0.027s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.113s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.118s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.258s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.321s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.359s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.362s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.380s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.496s] -- Found rclpy: 1.9.2 (/opt/ros/galactic/share/rclpy/cmake)
+[0.497s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.565s] -- Found vision_msgs: 3.0.2 (/opt/ros/galactic/share/vision_msgs/cmake)
+[0.625s] CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.626s]   rosidl_generate_interfaces() the passed file 'msg/ObjectTracking2D.msg'
+[0.626s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.626s]   '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node'
+[0.626s] Call Stack (most recent call first):
+[0.626s]   CMakeLists.txt:73 (rosidl_generate_interfaces)
+[0.626s] 
+[0.627s] 
+[0.628s] -- Configuring incomplete, errors occurred!
+[0.628s] See also "/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/CMakeFiles/CMakeOutput.log".
+[0.628s] See also "/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros/CMakeFiles/CMakeError.log".
+[0.633s] Invoked command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/build/yolov7_ros' returned '1': /usr/bin/cmake /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node -DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros

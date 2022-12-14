@@ -1,0 +1,16 @@
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/ament_index/resource_index/package_run_dependencies/yolov7_ros
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/ament_index/resource_index/parent_prefix_path/yolov7_ros
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/environment/ament_prefix_path.sh
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/environment/ament_prefix_path.dsv
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/environment/path.sh
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/environment/path.dsv
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/local_setup.bash
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/local_setup.sh
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/local_setup.zsh
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/local_setup.dsv
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/package.dsv
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/ament_index/resource_index/packages/yolov7_ros
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/cmake/yolov7_rosConfig.cmake
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/cmake/yolov7_rosConfig-version.cmake
+/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/objdetect_node/install/yolov7_ros/share/yolov7_ros/package.xml
