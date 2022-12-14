@@ -1,0 +1,4 @@
+<launch>
+  <executable cmd="ros2 bag play /home/jackie/rosbag2_2022_11_19-17_03_58 -l" output="screen" />
+  <node exec="rviz2" name="rviz2" pkg="rviz2" args="-d $(find-pkg-share objdetect_node)/conf/conf.rviz"/>
+</launch>

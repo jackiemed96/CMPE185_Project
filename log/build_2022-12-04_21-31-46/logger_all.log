@@ -1,0 +1,176 @@
+[0.218s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'camera_node']
+[0.218s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc69df47460>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['camera_node'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc69df47460>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc69df479a0>)
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.255s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jackie/Desktop/CMPE185/CMPE185_Project'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/build) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/build) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/install) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/install) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/log) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/log) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/camera_node) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'CMPE185_ws/src/camera_node' with type 'ros.ament_cmake' and name 'camera_node'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(CMPE185_ws/src/objdetect_node) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'CMPE185_ws/src/objdetect_node' with type 'ros.ament_cmake' and name 'objdetect_node'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.330s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'objdetect_node' in 'CMPE185_ws/src/objdetect_node'
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 269 installed packages in /opt/ros/galactic
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_args' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_target' from command line to 'None'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.462s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node', 'merge_install': False, 'path': '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/camera_node', 'symlink_install': False, 'test_result_base': None}
+[0.464s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.470s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/camera_node' with build type 'ament_cmake'
+[0.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/camera_node'
+[0.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/camera_node -DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node
+[3.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/jackie/Desktop/CMPE185/CMPE185_Project/CMPE185_ws/src/camera_node -DCMAKE_INSTALL_PREFIX=/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node
+[3.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node -- -j8 -l8
+[10.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node -- -j8 -l8
+[10.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node
+[10.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_node)
+[10.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/jackie/Desktop/CMPE185/CMPE185_Project/build/camera_node
+[10.099s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node' for CMake module files
+[10.099s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node' for CMake config files
+[10.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'cmake_prefix_path')
+[10.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/hook/cmake_prefix_path.ps1'
+[10.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/hook/cmake_prefix_path.dsv'
+[10.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/hook/cmake_prefix_path.sh'
+[10.107s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/lib'
+[10.107s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/bin'
+[10.107s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/lib/pkgconfig/camera_node.pc'
+[10.107s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/lib/python3.8/site-packages'
+[10.107s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/bin'
+[10.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.ps1'
+[10.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.dsv'
+[10.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.sh'
+[10.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.bash'
+[10.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.zsh'
+[10.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/colcon-core/packages/camera_node)
+[10.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_node)
+[10.162s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node' for CMake module files
+[10.162s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node' for CMake config files
+[10.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'cmake_prefix_path')
+[10.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/hook/cmake_prefix_path.ps1'
+[10.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/hook/cmake_prefix_path.dsv'
+[10.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/hook/cmake_prefix_path.sh'
+[10.167s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/lib'
+[10.167s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/bin'
+[10.167s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/lib/pkgconfig/camera_node.pc'
+[10.168s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/lib/python3.8/site-packages'
+[10.168s] Level 1:colcon.colcon_core.environment:checking '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/bin'
+[10.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.ps1'
+[10.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.dsv'
+[10.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.sh'
+[10.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.bash'
+[10.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/camera_node/package.zsh'
+[10.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jackie/Desktop/CMPE185/CMPE185_Project/install/camera_node/share/colcon-core/packages/camera_node)
+[10.173s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.174s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.184s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.184s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.184s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.205s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.208s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/local_setup.ps1'
+[10.210s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/_local_setup_util_ps1.py'
+[10.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/setup.ps1'
+[10.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/local_setup.sh'
+[10.218s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/_local_setup_util_sh.py'
+[10.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/setup.sh'
+[10.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/local_setup.bash'
+[10.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/setup.bash'
+[10.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/local_setup.zsh'
+[10.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jackie/Desktop/CMPE185/CMPE185_Project/install/setup.zsh'
